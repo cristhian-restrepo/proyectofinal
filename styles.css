@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    background-color: #28a745;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons i {
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+.funcionalidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.funcionalidad {
+    flex: 1 1 300px; 
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.funcionalidad img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.plan {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .nav {
+    justify-content: center;
+}
+
+.footer .nav-item {
+    margin: 0 10px;
+}
